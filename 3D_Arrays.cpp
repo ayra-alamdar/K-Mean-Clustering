@@ -239,27 +239,27 @@
 //	{
 //		if (flag == true)
 //		{
-//			flag = false;
-//			continue;
-//		}
-//		counterFlag++;
-//		if (counterFlag == 201)
-//		{
-//			break;
-//		}
-//		if (str == "" || str == "\n")
-//		{
-//			break;
-//		}
-//		stringstream var(str);
-//		string str1[5];		//5 cols
-//		getline(var, str1[0], ',');
-//		getline(var, str1[1], ',');
-//		getline(var, str1[2], ',');
-//		getline(var, str1[3], ',');
-//		getline(var, str1[4], '\n');
-//		a1[string_to_int(str1[0])][string_to_int(str1[3])][string_to_int(str1[4])] = string_to_int(str1[4]);		//2D array is populated and the data is saved 
-//	}
+			flag = false;
+			continue;
+		}
+		counterFlag++;
+		if (counterFlag == 201)
+		{
+			break;
+		}
+		if (str == "" || str == "\n")
+		{
+			break;
+		}
+		stringstream var(str);
+		string str1[5];		//5 cols
+		getline(var, str1[0], ',');
+		getline(var, str1[1], ',');
+		getline(var, str1[2], ',');
+		getline(var, str1[3], ',');
+		getline(var, str1[4], '\n');
+		a1[string_to_int(str1[0])][string_to_int(str1[3])][string_to_int(str1[4])] = string_to_int(str1[4]);		//2D array is populated and the data is saved 
+	}
 //	//for (int i = 0; i < 500; i++)
 //	//{
 //	//	for (int j = 0; j < 500; j++)
@@ -270,5 +270,5 @@
 //	//	}
 //	//	//cout << endl;
 //	//}
-//	clustering(a1);
-//}
+	clustering(a1);
+}
