@@ -1,6 +1,4 @@
-//Ayra Alamdar - 21i-2968
-//DS Assignment # 01
-//BS(CS) - D
+//Ayra Alamdar
 #include<iostream>
 #include<string>
 #include<ctime>
